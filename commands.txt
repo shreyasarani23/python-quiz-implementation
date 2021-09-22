@@ -1,6 +1,6 @@
 //Command to build the image
 
-docker build --tag <docker-id>/<repo-name>:<tagname> .
+docker build --tag <docker-id>/<repo-name>:<tag> .
 
 
 //command to push the image to docker hub
