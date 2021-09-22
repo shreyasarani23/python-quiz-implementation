@@ -1,0 +1,17 @@
+//Command to build the image
+
+docker build --tag <docker-id>/<repo-name>:<tagname> .
+
+
+//command to push the image to docker hub
+
+docker login
+
+enter your dockerid and password
+
+docker push <docker-id>/<repo-name>:<tag>
+
+
+//command to run the docker
+docker run -it <docker-id>/<repo-name>:<tag>
+
